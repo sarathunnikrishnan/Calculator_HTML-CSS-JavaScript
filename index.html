@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="calcstyle.css" >
+    <link href='https://fonts.googleapis.com/css?family=Russo+One|Play' rel='stylesheet' type='text/css'>
+    
+    <link href='https://fonts.googleapis.com/css?family=Black+Ops+One|Audiowide' rel='stylesheet' type='text/css'>
+    
+    <link href='https://fonts.googleapis.com/css?family=Orbitron:400,500,700,900' rel='stylesheet' type='text/css'>
+    <script src="calc.js"></script>
+</head>
+<body>
+    <div id="outerbox">
+        <div id="outputscreen">
+         <h3 id="heading" >Calculator</h3>   
+         <input type="text" id="screen">
+
+        </div>
+        <div id="buttonscreen">
+            <div class="btndiv">
+                <button type="button" class="btn" onclick="buttonclear()">AC</button>
+                <button type="button" class="btn" onclick="buttonclick('+/-')">+/-</button>
+                <button type="button" class="btn" onclick="operator('%')">%</button>
+                <button type="button" class="btn" onclick="operator('/')">/</button>
+            </div>
+            <div class="btndiv">
+                <button type="button" class="btn" onclick="buttonclick(7)">7</button>
+                <button type="button" class="btn" onclick="buttonclick(8)">8</button>
+                <button type="button" class="btn" onclick="buttonclick(9)">9</button>
+                <button type="button" class="btn" onclick="operator('*')">X</button>
+            </div>
+            <div class="btndiv">
+                <button class="btn" onclick="buttonclick(4)">4</button>
+                <button class="btn" onclick="buttonclick(5)">5</button>
+                <button class="btn" onclick="buttonclick(6)">6</button>
+                <button class="btn" onclick="operator('-')">-</button>
+            </div>
+            <div class="btndiv">
+                <button class="btn" onclick="buttonclick(1)">1</button>
+                <button class="btn" onclick="buttonclick(2)">2</button>
+                <button class="btn" onclick="buttonclick(3)">3</button>
+                <button class="btn" onclick="operator('+')">+</button>
+            </div>
+            <div class="btndiv">
+                <button class="btn" onclick="buttonclick('.')">.</button>
+                <button class="btn" onclick="buttonclick(0)">0</button>
+                <button id="equelbtn" class="btn" onclick="equel()">=</button>
+                
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>

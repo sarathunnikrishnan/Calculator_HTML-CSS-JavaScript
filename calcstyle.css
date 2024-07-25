@@ -1,0 +1,71 @@
+#outerbox{
+    width: 400px;
+    height: 600px;
+    margin-left: 400px;
+    border-radius: 25px;
+    background-color: #143017;
+}
+
+#heading{
+    color: white;
+    margin: -10px;
+    margin-left: 30px;
+    font-family: 'play','Russo One', sans-serif;
+}
+
+#outputscreen{
+    width: 400px;
+    height: 130px;
+    margin-left: 0px;
+    padding-top: 30px;
+    border-top-right-radius:  25px;
+    border-top-left-radius: 25px;
+    background-color: #042b12;
+    border-color: black;
+    box-sizing: 10px;
+}
+   
+
+#screen{
+    width: 350px;
+    height: 50px;
+    margin-left: 18px;
+    margin-top: 50px;
+    pointer-events: none;
+    border-radius: 10px;
+    background: black;
+    border: 0px;
+    color: white;
+    font-size: 30px;
+   
+}
+
+#buttonscreen{
+    background-color: black;
+    width: 400px;
+    height: 440px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.btn{
+    width: 70px;
+    height: 60px;
+    margin-left: 22px;
+    margin-top: 22px;
+    font-size: 25px;
+    background-color: #042b12;
+    color: white;
+    border-radius: 10px;
+    font-family: 'play','Russo One', sans-serif;
+   
+}
+
+.btn:active{
+    background-color: black;
+}
+
+#equelbtn{
+    width: 162px;
+}
+
